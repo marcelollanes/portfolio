@@ -1,4 +1,18 @@
 
-.foto-portada{
+#portada{
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(images/fondo1);
+}
+ 
+#foto-portada{
     border-radius: 160px;
+    box-shadow: black 20px 3px 17px;
+}
+.row{
+    align-items: flex-start;
+}
+.accordion-body{
+   background-image: url(images/fondo1);
+   color: aliceblue;
 }
